@@ -1,14 +1,14 @@
 pkgbase = nodejs-markmap-cli
 	pkgdesc = Create markmaps (mindmaps from markdown) from CLI
-	pkgver = 0.16.2
+	pkgver = 0.17.0
 	pkgrel = 1
 	url = https://markmap.js.org/
 	arch = any
 	license = MIT
 	depends = nodejs
 	depends = npm
-	noextract = markmap-cli-0.16.2.tgz
-	source = https://registry.npmjs.org/markmap-cli/-/markmap-cli-0.16.2.tgz
-	sha1sums = d6ff284619c1a330a785743f0b6fdd5feff7f30f
+	noextract = markmap-cli-0.17.0.tgz
+	source = https://registry.npmjs.org/markmap-cli/-/markmap-cli-0.17.0.tgz
+	sha1sums = 80391afada305ec81f97562389d9a587f13bbb6d
 
 pkgname = nodejs-markmap-cli
