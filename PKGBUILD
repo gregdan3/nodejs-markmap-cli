@@ -2,7 +2,7 @@
 
 _npmname=markmap-cli
 pkgname=nodejs-markmap-cli # All lowercase
-pkgver=0.17.0
+pkgver=0.18.7
 pkgrel=1
 pkgdesc="Create markmaps (mindmaps from markdown) from CLI"
 arch=(any)
@@ -12,7 +12,7 @@ depends=('nodejs' 'npm')
 optdepends=()
 source=(https://registry.npmjs.org/$_npmname/-/$_npmname-$pkgver.tgz)
 noextract=($_npmname-$pkgver.tgz)
-sha1sums=('80391afada305ec81f97562389d9a587f13bbb6d')
+sha1sums=('a2e2e09422e58cf48afec4987b1fad3507145e12')
 
 package() {
 	cd $srcdir
